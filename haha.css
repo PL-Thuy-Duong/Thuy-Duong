@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     /* background-color: #b64040; đổi nền bên ngoài khung container */
-    background-image: url(image/ce06bcbb4accd0f72c09521f42e0987b.jpg);
+    background-image: url(ce06bcbb4accd0f72c09521f42e0987b.jpg);
 }
 
 h1 {
@@ -25,7 +25,7 @@ img {
     box-shadow: 10px 10px rgba(0,0,0,0.2); 
     /* do bong cho khung */
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
 
 }
 .picture{
