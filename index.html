@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="top">Trang cá nhân</title>
+    <link rel="stylesheet" href="/haha.css"/>
+    <link rel="stylesheet" href="main.css">
+	
+</head>
+<body>
+    <header >
+        <div class="menu">
+                <li class="list"><a href="index.html">Trang chủ</a></li>
+                <li class="list"><a href="hinhanh.html">Hình ảnh</a></li>
+                <li class="list"><a href="https://www.facebook.com/profile.php?id=100065092697515">Liên hệ</a></li>
+                <li class="list"><a href="#gopy">Góp ý</a></li>
+                <li class="list"><a href="https://go.microsoft.com/fwlink/?linkid=2080734">Trợ giúp</a></li>
+                <li class="list"><a href="">Thoát trang</a></li>
+         </div>
+    </header>
+    
+    <script>
+        var index=1;
+        function changeImg(){
+            var imgs=["daidien.jpg","daidien2.jpg"];
+            document.getElementById('img').src=imgs[index];
+            index++;
+            if(index==2){
+                index=0;
+            }
+            
+        }
+        setInterval(changeImg,2000);
+    </script>
+	<div class="container">
+        <div class="images">
+            <img  id="img" onclick="changeImg()" src="daidien.jpg" alt="Profile picture"  >
+        </div>
+		<h2>Phan Lương Thùy Dương</h2>
+		<p ><strong>Email:</strong> thuyduongtd181003@gmail.com</p>
+		<p><strong>Phone:</strong> 0398956935</p>
+		<p><strong>Location:</strong>Tân Bình, TP. Hồ Chí Minh</p>
+		<p><strong>About me:</strong></p>
+        <ol>
+        <li>Họ và Tên: Phan Lương Thùy Dương</li>
+        <li>Tuổi: 20</li>
+        <li>Đang học ngành Công nghệ thông tin tại trường Đại học Sư phạm Thành phố Hồ Chí Minh</li>
+        <li>STD: 0398956935</li>
+        <li>Gia Đình</li>
+        <table cellpadding="4" border="1" width="500" cellspacing="0">
+            <tr>
+                <th>Họ và tên</th>
+                <th> Mối quan hệ</th>
+                <th> Trang cá nhân</th>
+            </tr>
+            <tr>
+                <td>Phan Phố</td>
+                <td>Bố</td>
+                <td><a href="https://www.facebook.com/loi.luong.92351995">Phan Phố</a></td>
+            </tr>
+            <tr>
+                <td>Lương Thị Lợi</td>
+                <td>Mẹ</td>
+                <td><a href="https://www.facebook.com/profile.php?id=100068676160850"> Lương Thị Lợi</a></td>
+            </tr>
+            <tr>
+                <td>Phan Lương Tường Vi</td>
+                <td>Chị gái</td>
+                <td><a href="https://www.facebook.com/profile.php?id=100009502017233"> PL Tường Vi</a></td>
+            </tr>
+            <tr>
+                <td>Phan Lương Phương Anh</td>
+                <td>Em gái</td>
+                <td><a href="https://www.facebook.com/profile.php?id=100073780182905"> Phan Lương Phương Anh</a></td>
+            </tr>
+        </table>   
+     
+        <li>Sở thích</li>
+            <ul>
+                <li>Thể thao</li>
+                <li>Nghe nhạc</li>
+                <li>Xem phim</li>
+            </ul>
+        <li>Tính cách</li>
+            <ul>
+                <li>Lạc quan, yêu đời</li>
+                <li>Hơi hướng nội</li>
+            </ul> 
+        <!-- <li>Facebook cá nhân <a href="https://www.facebook.com/profile.php?id=100065092697515">Tại đây</a></li>    -->
+        <li>Câu lạc bộ tham gia</li>
+        <ul>
+            <li>CLB Âm Nhạc</li>
+            <li>Link ĐK CLB Âm Nhạc<a href="form1.html">Tại đây</a></li>
+        </ul>
+        <li id="gopy">Góp ý cho trang của minh</li>
+        <div class="body">
+            <table cellpadding="4" border="1" width="500" cellspacing="0" >
+                <tr>    
+                    <td><label for="txtHoTen">Họ Tên</label></td>
+                    <td><input type="text" id="txtHoTen" name="HoTen"></td>
+                </tr>
+                <tr>
+                    <td><label for="txtSoThich">Điều góp ý</label></td>  
+                    <td><textarea placeholder=" please enter" id="txtSoThich" name="SoThich"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="5" align="center">
+                    <input type="submit" id="btnDangKi" name="DangKi">
+                    <input type="reset" id="btnReSet" name="ReSet">
+                    </td>
+                </tr>
+            </table>
+
+        Cảm ơn bạn đã góp ý cho trang!
+        </div>       
+        </ol>
+    <a href="#Top">Top</a>
+</body>
+</html>
