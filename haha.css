@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #b64040; đổi nền bên ngoài khung container */
+    background-image: url(image/ce06bcbb4accd0f72c09521f42e0987b.jpg);
+}
+
+h1 {
+    text-align: left;
+}
+img {
+    display: block;
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.container {
+    /* khung */
+    max-width: 800px;
+    margin: auto;
+    /*  */
+    padding: 20px;
+    box-shadow: 10px 10px rgba(0,0,0,0.2); 
+    /* do bong cho khung */
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+.picture{
+    max-width: 800px;
+    /* margin: auto; */
+    padding: 20px;
+    /* box-shadow: 0 2px 10px rgba(0,0,0,0.2); */
+    border-radius: 0px;
+    background-color: #fff;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* .home-button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.home-button:hover {
+    background-color: #df3139;
+} */
+
+/* .hoho {
+    display: flex;
+    background-color: aliceblue;
+    border: 1px solid #4CAF50;
+    position:fixed;
+} */
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí thành viên CLB Âm nhạc</title>
+    <link rel="stylesheet" href="/main.css">
+    <style>
+        body {
+			font-family: Arial, sans-serif;
+			/* background-color: #b64040; đổi nền bên ngoài khung container */
+            background-image: url(image/backgr.png);
+		}
+        .container{
+            max-width: 800px;
+			margin: auto;
+            display: block;
+            /* can chinh nd tren khung body */
+			margin-top: 25px;
+			/* background-color: #dbb767; */
+			color: rgb(253, 253, 255);
+			border:#993366;
+			font-size: 16px;
+            /* can chinh noi dung  */
+            max-width: 555px;
+            padding: 10px 20px;
+            border: #4CAF50;
+           
+        }
+        picture{ 
+            border: 5px groove #993366;
+        background-color: #FFCCCC;color:aliceblue;
+        }
+        .home-button {
+            display: block;
+			margin: auto;
+			margin-top: 0px;
+			padding: 10px 10px;
+			/* background-color: #dbb767; */
+			color: #c44d08;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+            max-width: 400px;
+			margin: auto;
+			padding: 10px;
+			transition: background-color 0.3s ease;
+            position: fixed;
+		}
+        .home-button:hover {
+			text-decoration: #009419;
+		}
+        
+        .khung{
+            background-color: aliceblue;
+            
+        }
+        #menu1{
+            top: -20px;
+        }
+       
+    </style>
+</head>
+  
+
+
+<body>
+    <header>
+        <div class="menu">
+            <li class="list"><a href="hahaha.html">Trang chủ</a></li>
+            <li class="list"><a href="hinhanh.html">Hình ảnh</a></li>
+            <li class="list"><a href="https://www.facebook.com/profile.php?id=100065092697515">Liên hệ</a></li>
+            <li class="list"><a href="hahaha.html">Góp ý</a></li>
+            <li class="list"><a href="https://go.microsoft.com/fwlink/?linkid=2080734">Trợ giúp</a></li>
+            <li class="list"><a href="">Thoát trang</a></li>
+     </div>
+    </header>
+    <div class="container">
+    <table cellpadding="4" border="2" width="500" cellspacing="0" >
+        <caption ><h2>ĐĂNG KÝ THÀNH VIÊN CLB YÊU NHẠC</h2></caption> 
+        <tr>    
+          <td><label for="txtHoTen">Họ Tên</label></td>
+          <td><input type="text" id="txtHoTen" name="HoTen"></td>
+        </tr>
+        <tr>
+          <td><label for="txtUsername">Tên đăng nhập</label></td>
+          <td><input type="text" id="txtUserName" name="Username"></td>
+        </tr>
+        <tr>
+            <td><label for="txtPass">Mật khẩu</label></td>
+            <td><input type="password" id="txtPass" name="Pass"></td>
+        </tr>
+        <tr>
+            <td><label for="txtRepass">Gõ lại mật khẩu</label></td>
+            <td><input type="password" id ="txtRepass"name="Repass"></td>
+        </tr>
+        <tr>
+            <td><label for="radNam">Phái</label></td>
+            <td>
+                <label for="radNam">Nam</label>
+                <input type="radio" id="radNam" name="gioiTinh" value="Nam">
+                <label for="radNu">Nữ</label>
+                <input type="radio" id="radNu" name="gioiTinh" value="Nu">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="txtNgoaingu">Ngoại ngữ</label></td>
+            <td><input type="checkbox" id="chkAnh" name="ngoaiNgu" value="Anh">
+            <label for="chkAnh">Anh</label>
+            <input type="checkbox" id="chkPhap" name="ngoaiNgu" value="Pháp">
+            <label for="chkPhap">Pháp</label>
+            <input type="checkbox" id="chkHoa" name="ngoaiNgu" value="Hoa">
+            <label for="chkHoa">Hoa</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="cboNgheNghiep"></label>Nghề nghiệp</td>
+            <td><select id="cboNgheNghiep" name="NgheNghiep">
+                <option value="0">Bạn làm nghề gì?</option>
+                <option value="1">Học sinh-Sinh viên</option>
+                <option value="2">Giáo viên</option>
+                <option value="3">Nhân viên</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="fHinh">Hình</label></td>
+            <td><input type="file" id="fHinh" name "Hinh"></td>
+        </tr>
+        <tr>
+            <td><label for="txtSoThich">Sở Thích</label></td>  
+            <td><textarea placeholder=" please enter" id="txtSoThich" name="SoThich"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+            <input type="submit" id="btnDangKi" name="DangKi">
+            <input type="reset" id="btnReSet" name="ReSet">
+            </td>
+        </tr>
+      </table>
+    </div>
+      
+   
+
+</body>
+</html>
